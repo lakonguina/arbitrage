@@ -69,7 +69,7 @@ def local_maxima(sr0, sr1, tr1, tr0):
     return solution
 
 def formate_decimal(n, decimal):
-    #Limite le nombre de decimal a 6
+    #Limite le nombre de decimal
     n = str(n)
     return float(n[:n.find('.')+decimal+1])
 
