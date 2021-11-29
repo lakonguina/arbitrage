@@ -1,4 +1,4 @@
-# tezos-arbitrage
+# Arbitrage
 
 Bot d'arbitrage opérant sur la blockchain Tezos. Il analyse et arbitre entre deux DEX, QuipuSwap et SpicySwap
 
@@ -9,6 +9,9 @@ Le bot arbitre sur les paires suivante:
 - [ ] WTZ/hDAO
 - [ ] WTZ/FLAME
 
+# Liquidation
+
+Bot de liquidation sur https://ctez.app/
 
 
 
