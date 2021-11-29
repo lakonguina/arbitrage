@@ -54,7 +54,7 @@ while True:
                         	ctez_contract.liquidate(to=address, handle={"id": int(e["key"]["id"]), "owner": e["key"]["owner"]}, quantity = int(e['value']['ctez_outstanding']))
                         ).autofill(fee = transaction_fee).sign().inject()
                         transactions.append(tez)
-                    print("Liquidation profit on", e["value"]["address"], "of", ctez, "at", time.asctime())
+                        print("Liquidation profit on", e["value"]["address"], "of", ctez, "at", time.asctime())
                     
                 elif liquidation > tez and liquidation > amount_max:
                     print("Liquidation out of profit on", e["value"]["address"], "of", ctez, "at", time.asctime())
